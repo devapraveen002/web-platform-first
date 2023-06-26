@@ -1,65 +1,143 @@
-/* Global Styles */
-body {
-  font-family: Arial, sans-serif;
+body,
+h1,
+h2,
+p,
+pre {
   margin: 0;
   padding: 0;
 }
 
-.container {
+body {
+  
+    background-image: url('https://github.com/devapraveen002/web-platform-first/assets/137753578/1d1f37af-6135-4ace-b562-8f3a8b018ecd');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+main {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
 }
 
-/* Header Styles */
 header {
-  text-align: center;
-  padding: 20px 0;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner img {
+  max-width: 100px;
+  border-radius: 50%;
 }
 
 h1 {
   font-size: 28px;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
 p {
-  font-size: 16px;
-  margin: 0;
+  margin-bottom: 10px;
 }
 
-/* Section Styles */
-.section {
-  margin-bottom: 30px;
+.introduction p {
+  line-height: 1.5;
+}
+
+.section-1,
+.section-2,
+.third-section {
+  margin-bottom: 20px;
 }
 
 h2 {
   font-size: 24px;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
-.section p {
-  line-height: 1.5;
-}
-
-/* Code Block Styles */
 pre {
-  background-color: #f1f1f1;
+  background-color: #f9f9f9;
   padding: 10px;
-  font-size: 14px;
-  overflow-x: auto;
+  margin-bottom: 10px;
+  border-radius: 4px;
   white-space: pre-wrap;
 }
 
-/* Third Section Styles */
-.third-section {
-  background-color: #f9f9f9;
-  padding: 20px;
+/* Custom styles */
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
 }
 
-/* Footer Styles */
-footer {
-  text-align: center;
+.section-1,
+.section-2,
+.third-section {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section-2 pre,
+.third-section pre {
+  white-space: pre-wrap;
+}
+
+.section-2 p:last-child,
+.third-section p:last-child {
+  margin-bottom: 0;
+}
+
+.section-2 h2,
+.third-section h2 {
+  margin-bottom: 20px;
+}
+
+.section-2 p:first-child,
+.third-section p:first-child {
+  margin-top: 0;
+}
+
+.banner-container {
+  display: flex;
+  align-items: center;
+}
+
+.banner-text {
+  margin-left: 20px;
+}
+
+.footer {
   background-color: #333;
   color: #fff;
-  padding: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+  main {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
 }
