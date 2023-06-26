@@ -8,12 +8,11 @@ pre {
 }
 
 body {
-  
-    background-image: url('https://github.com/devapraveen002/web-platform-first/assets/137753578/1d1f37af-6135-4ace-b562-8f3a8b018ecd');
-    background-size: cover;
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    color: #333;
+  background-image: url('https://github.com/devapraveen002/web-platform-first/assets/137753578/1d1f37af-6135-4ace-b562-8f3a8b018ecd');
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
 }
 
 main {
@@ -48,6 +47,7 @@ p {
 
 .introduction p {
   line-height: 1.5;
+  color: #f9f9f9;
 }
 
 .section-1,
