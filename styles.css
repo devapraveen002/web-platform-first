@@ -14,13 +14,7 @@ body {
   background-color: #f2f2f2;
   color: #333;
 }
-.logo {
-  background-image: url("https://github.com/devapraveen002/web-platform-first/assets/137753578/1d1f37af-6135-4ace-b562-8f3a8b018ecd");
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 100px;
-}
+
 
 
 
@@ -44,10 +38,8 @@ header {
   max-width: 100px;
   border-radius: 50%;
 }
-.logo {
- 
-  width: 10px;
-  height: 10px;
+.logo img {
+  max-width: 70px;
 }
 
 
