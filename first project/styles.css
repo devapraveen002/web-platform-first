@@ -25,7 +25,7 @@ header {
   background-color: #333;
   color: #fff;
   padding: 20px;
-  display:-webkit-inline-flex;
+  display: -webkit-inline-flex;
   align-items: center;
   justify-content: space-between;
 }
@@ -40,6 +40,7 @@ header {
 }
 
 h1 {
+  padding-left: 10px;
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -68,13 +69,22 @@ h1 {
 }
 
 p {
+  padding-left: 10px;
   margin-bottom: 10px;
 }
 
 .introduction p {
   line-height: 1.5;
   color: #f9f9f9;
-}
+  }
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
+  a:hover{
+    
+    color:yellowgreen;
+  }
 
 .section-1,
 .section-2,
